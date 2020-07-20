@@ -5,7 +5,7 @@ Inspiration from [Cornell Computer Science](https://www.cs.cornell.edu/courses/c
 
 ## Usage
 
-`examples.py example1 -q 0.0001`
+`python3 examples.py example1 -q 0.0001`
 
 Runs Example 1 with the constant-level model
 
