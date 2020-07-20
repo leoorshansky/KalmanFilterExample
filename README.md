@@ -17,13 +17,13 @@ Runs Example 1 with the constant-level model
 
 As we can see, the filter lags behind the measurements because it doesn't know that the level is increasing. It does a good job of reducing the noise, though.
 
-`examples.py example1 -q 0.0001 -m increasing`
+`python3 examples.py example1 -q 0.0001 -m increasing`
 
 ![Increasing Level](/images/increasing_model.png)
 
 Here, the filter is given the information that it should expect an increasing water level, and therefore it does a good job smoothing the measurements and keeping up.
 
-`examples.py example1 -q 0.01 -m increasing`
+`python3 examples.py example1 -q 0.01 -m increasing`
 
 ![High Process Noise](/images/high_process_noise.png)
 
